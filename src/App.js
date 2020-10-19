@@ -32,7 +32,6 @@ class App extends React.Component {
     return (
       <div className = 'App'>
         <h1>Monstres carrousel</h1>
-        <h2>Ca va les nuls ?</h2>
         <ZoneRecherche
           placeholder="Chercher monstres"
           gererChangement = {this.gererChangement}
